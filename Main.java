@@ -10,10 +10,12 @@ public class Main {
 			
 			//checks if "i" is divisible by 3
 			if(i%3==0)
+				//adds fizz to print line if true
 				x += "fizz";
 			
 			//checks if "i" is divisible by 5
 			if(i%5==0)
+				//adds buzz to print line if true
 				x += "buzz";
 			
 			//print whatever "i" has been tagged as
